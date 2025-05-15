@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.day-mode {
+    background-color: white;
+    color: black;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+/* Home Section */
+#home {
+    background: url('..//images/hero-bg.jpg') center/cover no-repeat;
+    font-size: 30px;
+    
+}
+
+
+/* About Section */
+#about img {
+    max-width: 75%;
+    border: 2px solid rgb(36, 232, 36);
+    box-shadow: 7px 9px 12px rgb(36, 232, 36);
+    
+}
+#about p{
+    font-size: larger;
+}
+#about .seconddiv{
+    padding-top: 10px;
+}
+
+.typewriter-h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) 3s infinite, blink 0.5s step-end infinite;
+}
+
+.typewriter-p {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) 3s infinite, blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    80% {
+        width: 100%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+/* Projects Section */
+#projects .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#projects .card:hover {
+    transform: scale(1.15);
+}
+
+.container .row a{
+    text-decoration:none;
+    align-items: center;
+}
+
+.container .row button a{
+    color: white ;
+    text-align: center;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
